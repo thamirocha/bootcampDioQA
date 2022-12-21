@@ -1,1 +1,1 @@
-# bootcampDioQA
+Essa documentação foi criada com base nas video aulas do Bootcamp GFT Quality Assurance Para Mulheres para colocar em prática os conceitos de desenvolvimentos de teste, ciclos de vida de projetos, além do uso pratico da plataforma Jira com base nos conceitos de agilidade Scrum.
