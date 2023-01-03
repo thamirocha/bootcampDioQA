@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>FIR</projectKey>
+    <exportDate>2022-12-27 01:42:05 UTC</exportDate>
+    <folders>
+        <folder fullPath="redefinir" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="77317407" key="FIR-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>thamires rocha</createdBy>
+            <createdOn>2022-12-21 06:21:10 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[redefinir]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[redefinir senha]]></name>
+            <objective><![CDATA[usuario visualizar campo para redefinir senha na pagina principal<br /><br />]]></objective>
+            <owner>639a6c5677c9c3a008b96c9d</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[usuario acessar url<br /><br />]]></description>
+                        <expectedResult><![CDATA[usuario visualizar pagina principal<br /><br />]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[usuario tentar realizar login com a senha incorreta&nbsp;]]></description>
+                        <expectedResult><![CDATA[mensagem de senha invalida na pagina de login<br /><br />]]></expectedResult>
+                        <testData><![CDATA[joao@joao.com<br />senha incorreta: 1234]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[usuario clica no botao redefinir senha]]></description>
+                        <expectedResult><![CDATA[usuario &eacute; direcionado ao formulario de redefini&ccedil;&atilde;o de senha]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[usuario preenche o formulario com seu email correto]]></description>
+                        <expectedResult><![CDATA[mensagem de confirma&ccedil;&atilde;o de envio deve aparecer na tela]]></expectedResult>
+                        <testData><![CDATA[joao@joao.com]]></testData>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[usuario recebe email com um link de autentica&ccedil;ao para redefinir senha<br /><br />]]></description>
+                        <expectedResult><![CDATA[usuario clica no link &eacute; redirecionado para o site na pagina de redefini&ccedil;ao de senha novamente apos autentica&ccedil;ao do email, onde contem os campos de &quot;NOVA SENHA&quot;e &quot;REPETIR NOVA SENHA&quot;]]></expectedResult>
+                        <testData><![CDATA[joao@joao.com]]></testData>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Usuario preenche nova senha nos dois campos solicitados]]></description>
+                        <expectedResult><![CDATA[senha &eacute; aceita e o cliente ja e direcionado as compras automaticamente&nbsp;]]></expectedResult>
+                        <testData><![CDATA[K234#s]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

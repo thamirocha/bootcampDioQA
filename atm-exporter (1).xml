@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>FIR</projectKey>
+    <exportDate>2022-12-27 01:43:46 UTC</exportDate>
+    <folders>
+        <folder fullPath="categorias" index="2"/>
+    </folders>
+    <testCases>
+        <testCase id="77318536" key="FIR-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>thamires rocha</createdBy>
+            <createdOn>2022-12-21 06:51:19 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[categorias]]></folder>
+            <issues>
+                <issue>
+                    <key>FIR-8</key>
+                    <summary><![CDATA[como usuario desejo visualizar produtos separados por categorias]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[usuario deseja verificar produtos por categorias]]></name>
+            <objective><![CDATA[produtos por categorias]]></objective>
+            <owner>639a6c5677c9c3a008b96c9d</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na pagina de produtos
+
+And esteja procurando produtos 	
+
+When clique em "categorias"
+
+Then sera aberto uma janela flutuante com os produtos separados por categorias]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

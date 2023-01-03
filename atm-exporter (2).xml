@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>FIR</projectKey>
+    <exportDate>2022-12-27 01:45:54 UTC</exportDate>
+    <folders>
+        <folder fullPath="somar compras" index="3"/>
+    </folders>
+    <testCases>
+        <testCase id="77453726" key="FIR-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>thamires rocha</createdBy>
+            <createdOn>2022-12-27 01:17:30 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[somar compras]]></folder>
+            <issues>
+                <issue>
+                    <key>FIR-9</key>
+                    <summary><![CDATA[como usuario desejo verificar o valor total das minhas comprar no carrinho no site virtual]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[somar compras no carrinho]]></name>
+            <objective><![CDATA[como cliente quero ter acesso ao total das compras no carrinho]]></objective>
+            <owner>639a6c5677c9c3a008b96c9d</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja no site de compras
+
+And que esteja selecioanando produtos para o carrinho
+
+When clicar no icone do carrinho 
+
+Then esteja os seus produtos e a somatoria dos valores totais]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
